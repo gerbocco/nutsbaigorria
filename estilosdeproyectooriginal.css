@@ -1,0 +1,209 @@
+body {
+	
+	font-family: 'News Gothic Extra Condensed BT' sans-serif;
+	background: #242424;
+	font-size: 30px;
+	margin: 5vh;
+
+}
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .nav-link{ color: #fff;  }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}	
+
+.navbar .nav-item .nav-link {
+
+	 color: white; 
+
+ }
+
+div.frente {
+
+	display: flex;
+	justify-content: center;
+
+}
+
+div.logopng {
+
+	position: absolute;
+	padding-top: 5vh;
+
+
+
+}
+
+
+.png {
+
+	display: flex;
+	justify-content: center;
+	width: 200vh;
+	height: 75vh;
+	padding-top: 8vh;
+	position: absolute;
+
+}
+
+
+
+div.fondo-frente {
+
+	position: relative;
+	width: 200vh;
+	height: 75vh;
+	background-image: linear-gradient(to right , #81634f, #242424);
+	z-index: -1;
+
+}
+
+
+
+.flotante{
+
+	width: 50px;
+	position: fixed;
+	bottom: 10px;
+	left: 185vh;
+	z-index: 1;
+
+
+}
+
+.row{
+
+	padding-top: 5vh;
+	margin: 1vh;
+
+
+}
+
+.img-carousel{
+
+    margin: 0 auto;
+
+
+}
+
+
+.pie_de_foto {
+
+	text-align: center;
+	padding-top: 5vh;
+	color: white;
+
+}
+
+.card-text {
+
+	text-align: center;
+	color: #464646;
+
+}
+
+.padre {
+
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items:center;
+
+}
+
+.descripcion {
+
+	color: white;
+
+}
+
+section.productos {
+
+	transition: all 2s;  
+	height: 100vh;
+
+}
+
+
+
+.productos a{
+
+	text-decoration: none;
+	color: #242424;
+	transition: all 1s;
+	height: 36vh;
+
+}
+
+section.productos a:hover {
+
+	height: 37vh;
+
+
+}
+
+
+form fieldset .home{
+
+	padding: 3px 10px;
+  	border: black 5px solid;
+  	border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+
+form fieldset label {
+
+	color: white;
+
+}
+
+.form_contacto {
+
+	color: white;
+	border: 5px;
+	border-color: orange;
+	box-shadow: 50px;
+	background-color: #E8B11C;
+	padding: 3px 10px;
+  	border: black 5px solid;
+  	border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: all 2s;  
+
+}
+
+
+.form_contacto:hover {
+
+   padding: 20px;
+}
+
+
+
+main div.info{
+    
+    color: white;
+    
+    
+}
+
+
+
+
+
+footer {
+
+	text-align: center;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 100vh;
+	color: orange;
+
+}
+
+
+
