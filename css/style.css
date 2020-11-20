@@ -1,31 +1,65 @@
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #242424;
+    border-color: darkorange;    
+    !important;
+}
+
+
 body {
   font-family: 'News Gothic Extra Condensed BT' sans-serif;
   background: #242424;
   font-size: 30px;
   margin: 5vh; }
 
+.barra {
+  
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: #242424;
+
+
+}
+
+.logo-header {
+    
+    padding: 50vh;
+    margin: 50vh;
+    
+}
+
+
 .navbar .nav-item .nav-link {
-  color: white; }
+  color: white;
+}
 
 div.frente {
-  display: flex;
-  justify-content: center; }
+      
+  padding-top: 15vh;
+    
+}
 
 div.logopng {
   position: absolute;
   padding-top: 5vh; }
 
 .png {
-  display: flex;
-  justify-content: center;
-  width: 200vh;
-  height: 75vh;
+ 
+  width: 98%;
+  height: 90%;
   padding-top: 8vh;
   position: absolute; }
 
 div.fondo-frente {
-  position: relative;
-  width: 200vh;
+
+  width: 100%;
   height: 75vh;
   background-image: linear-gradient(to right, #81634f, #242424);
   z-index: -1; }
@@ -37,17 +71,85 @@ div.fondo-frente {
   left: 185vh;
   z-index: 1; }
 
-.row {
+.primero {
   padding-top: 5vh;
-  margin: 1vh; }
+  padding-bottom: 5vh;    
+    
+}
+
+.foto1 {
+    
+    padding: 1vh;
+    
+}
+
+.carrousel {
+    
+    padding: 2vh;
+    
+}
+
+.video {
+    
+    padding: 1vh;
+    
+}
 
 .img-carousel {
-  margin: 0 auto; }
+  margin: 0 auto; 
+ 
+    
+}
 
 .pie_de_foto {
   text-align: center;
-  padding-top: 5vh;
-  color: white; }
+  
+  color: white; 
+  font-size: 2rem;
+}
+
+.segunda {
+    
+    padding: 2vh
+    
+}
+
+.inner {
+    
+    overflow: hidden
+}
+
+.inner img {
+    
+    transition: all 2s ease;
+
+}
+
+.inner:hover img {
+    
+    transform: scale(1.5);
+    
+}
+
+.mix-index{
+    
+    padding: 2vh;
+    
+}
+
+.granola-index{
+    
+    font-size: 2rem;
+    max-width: 120vh;
+    
+}
+ 
+.pasas-index {
+    
+    padding: 2vh;
+    
+}
+
 
 .card-text {
   text-align: center;
@@ -61,23 +163,59 @@ div.fondo-frente {
 .descripcion {
   color: white; }
 
-section.productos {
-  transition: all 2s;
-  height: 100vh; }
-  section.productos a:hover {
-    height: 37vh; }
 
-.productos a {
-  text-decoration: none;
-  color: #242424;
-  transition: all 1s;
-  height: 36vh; }
+.card-mixs{
+    
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    font-size: 2rem;
+    
+}
 
-form fieldset .home {
-  padding: 3px 10px;
-  border: black 5px solid;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px; }
+.btn{
+    
+    font-size: 2rem;
+    
+}
+
+.card-fs{
+    
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
+}
+
+.card-fd{
+    
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
+}
+
+.card-cereales{
+    
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
+}
+
+.card-semillas{
+    
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
+}
+
+.card-choco{
+    
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
+}
+
+
+
+
 
 form fieldset label {
   color: white; }
@@ -112,6 +250,6 @@ footer {
     display: none;
     margin-top: 0; }
   .navbar .nav-item:hover .nav-link {
-    color: #fff; }
+    color: orange; }
   .navbar .nav-item:hover .dropdown-menu {
     display: block; } }
