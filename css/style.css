@@ -3,7 +3,7 @@ html {
   font-size: 62.5%; }
 
 body {
-  font-family: 'News Gothic Extra Condensed BT';
+  font-family: 'News Gothic Extra Condensed BT' sans-serif;
   background: #242424;
   margin: 5vh; }
 
@@ -16,11 +16,19 @@ body {
   background-color: #242424; }
 
 .logo-header {
-  padding: 50vh;
-  margin: 50vh; }
+  padding: 5vh;
+   }
 
 .navbar .nav-item .nav-link {
-  color: white; }
+  color: white;
+  font-size: 3.5rem;
+}
+
+.dropdown-menu {
+    
+    font-size: 2rem;
+    
+}
 
 div.frente {
   padding-top: 15vh; }
@@ -130,6 +138,18 @@ div.fondo-frente {
 form fieldset label {
   color: white; }
 
+.home-form {
+
+    font-size: 3rem;
+    
+}
+
+.form-control {
+    
+    font-size: 2rem;
+    
+}
+
 .form_contacto {
   color: white;
   border: 5px;
@@ -151,7 +171,9 @@ footer {
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: orange; }
+  color: orange; 
+  font-size: 3rem;
+}
 
 .btn-primary {
   background-color: #242424;
