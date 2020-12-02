@@ -6,7 +6,7 @@ body {
   font-family: 'News Gothic Extra Condensed BT' sans-serif;
   background: #242424;
   margin: 5vh;
-    overflow-x: hidden;
+  overflow-x: hidden;
    }
 
 .barra {
@@ -23,7 +23,7 @@ body {
 
 .navbar .nav-item .nav-link {
   color: white;
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   padding: 2vh;
 }
 
@@ -70,7 +70,7 @@ div.fondo-frente {
     right: 0;
     z-index: 1;
     width: 7vh;
-    height: 18vh;
+    height: 20%;
     border: black 2px solid;
     transition: width 2s;
  }
@@ -238,13 +238,19 @@ main div.aside-info {
     
 }
 
+.ft {
+    
+    background-color: #ffa500
+    
+}
+
 
 .footer-frase {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 5px;
-  color: orange; 
+  color: #242424; 
   font-size: 4rem;
 }
 
@@ -252,7 +258,7 @@ main div.aside-info {
     
   text-align: center;
   text-transform: uppercase;
-  color: orange; 
+  color: #242424; 
   font-size: 2rem; 
     
 }
