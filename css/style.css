@@ -5,7 +5,9 @@ html {
 body {
   font-family: 'News Gothic Extra Condensed BT' sans-serif;
   background: #242424;
-  margin: 5vh; }
+  margin: 5vh;
+    overflow-x: hidden;
+   }
 
 .barra {
   position: fixed;
@@ -16,12 +18,13 @@ body {
   background-color: #242424; }
 
 .logo-header {
-  width: 86%;
+  width: 80%;
    }
 
 .navbar .nav-item .nav-link {
   color: white;
   font-size: 3.5rem;
+  padding: 2vh;
 }
 
 .dropdown-menu {
@@ -31,30 +34,53 @@ body {
 }
 
 div.frente {
-  padding-top: 15vh; }
+  padding-top: 15vh;
+  padding-bottom: 5vh;
+}
 
-div.logopng {
-  position: absolute;
-  padding-top: 5vh; }
+div.logo-png {
 
-.png {
-  width: 98%;
-  height: 90%;
-  padding-top: 8vh;
-  position: absolute; }
+  
+    padding-top: 5vh; }
+
+.png-der {
+    
+    margin-top: 2vh
+    
+}
+
 
 div.fondo-frente {
+  position: absolute;
   width: 100%;
-  height: 75vh;
+  height: 75%;
   background-image: linear-gradient(to right, #81634f, #242424);
   z-index: -1; }
 
-.flotante {
-  width: 50px;
-  position: fixed;
-  bottom: 10px;
-  left: 185vh;
-  z-index: 1; }
+.sociales {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    top: 20vh;
+    right: 0;
+    z-index: 1;
+    width: 7vh;
+    height: 18vh;
+    border: black 2px solid;
+    transition: width 2s;
+ }
+
+.sociales:hover {
+    
+    width: 10vh;
+    opacity: 90%;
+    
+}
 
 .primero {
   padding-top: 5vh;
@@ -110,7 +136,14 @@ div.fondo-frente {
 
 .card-mixs {
   margin-top: 1vh;
-  margin-bottom: 1vh; }
+  margin-bottom: 1vh;
+}
+
+.productos-prod{
+    
+    padding-top: 15vh;
+    
+}
 
 .btn {
   font-size: 2rem; }
@@ -121,11 +154,12 @@ div.fondo-frente {
 
 .card-fd {
   margin-top: 1vh;
-  margin-bottom: 1vh; }
+  margin-bottom: 1vh;}
 
 .card-cereales {
   margin-top: 1vh;
-  margin-bottom: 1vh; }
+  margin-bottom: 1vh;
+}
 
 .card-semillas {
   margin-top: 1vh;
@@ -150,49 +184,247 @@ form fieldset label {
     
 }
 
+
+.maps {
+    
+    padding-top: 10vh;
+    
+}
+
 .form_contacto {
+
   color: white;
-  border: 5px;
-  border-color: orange;
-  background-color: #E8B11C;
-  padding: 3px 10px;
-  border: black 5px solid;
-  border-top-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  transition: all 2s; }
+  align-items: center;
+  font-size: 2rem;
+  background-color: #ffa500;
+  border: black 1vh solid;
+  border-top-left-radius: 4vh;
+  border-bottom-right-radius: 4vh;
+  transition: all 1s; }
+
   .form_contacto:hover {
-    padding: 20px; }
+    padding: 1vh; }
 
 main div.info {
-  color: white; }
+    color: white;
+    padding-top: 10vh;
+    font-size: 2rem;
+}
 
-footer {
+main div.aside-info {
+    
+    padding-top: 10vh;
+    
+}
+
+.semillas-prod {
+    
+    padding-top: 15vh;
+   
+    
+}
+
+.cereales-prod {
+    
+    padding-top: 15vh;
+
+    
+}
+
+.card-pad {
+    
+    margin: 1vh;
+    width: 10vh;
+    
+}
+
+
+.footer-frase {
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 5px;
   color: orange; 
-  font-size: 3rem;
+  font-size: 4rem;
+}
+
+.contactos-footer {
+    
+  text-align: center;
+  text-transform: uppercase;
+  color: orange; 
+  font-size: 2rem; 
+    
 }
 
 .btn-primary {
   background-color: #242424;
-  border-color: darkorange; }
+  border-color: #ffa500; }
   .btn-primary:hover {
-    background-color: #242424;
-    border-color: darkorange; }
+    background-color: #ffa500;
+    border-color: #ffa500; }
   .btn-primary:active {
     background-color: #242424;
-    border-color: darkorange; }
+    border-color: #ffa500; }
   .btn-primary:visited {
     background-color: #242424;
-    border-color: darkorange; }
+    border-color: #ffa500; }
 
 @media all and (min-width: 992px) {
   .navbar .nav-item .dropdown-menu {
     display: none;
-    margin-top: 0; }
+    margin-top: 0;
+    }
   .navbar .nav-item:hover .nav-link {
-    color: orange; }
+    color: orange;
+    }
   .navbar .nav-item:hover .dropdown-menu {
-    display: block; } }
+    display: block;}
+
+    
+    
+
+}
+
+
+@media all and (max-width: 765px) {
+
+ 
+
+    
+    .no-puedo{
+        
+        height: 0vh;
+        
+    }
+    
+    
+    .logo-png {
+
+       display: flex;
+        justify-content: center;
+    }
+    
+    .fondo-frente {
+    
+        
+        width: 45vh;
+        height: 70vh;
+        background-image: linear-gradient(to right, #81634f, #242424);
+        z-index: -1;
+        
+    }
+    
+    .frente {
+        
+        padding-bottom: 5vh
+        
+    }
+    
+    .sociales {
+        
+        width: 18%;
+        height: 27%;
+                 
+    }
+
+    
+    .video {
+        
+        height: 40vh;
+        
+    }
+    
+    nav {
+        
+        font-size: 50px;
+        z-index: -1;
+    }
+    
+    .footer-frase {
+          text-align: center;
+          font-weight: bold;
+          text-transform: uppercase;
+          letter-spacing: 3px;
+          color: orange; 
+          font-size: 2rem;
+}
+
+    .contactos-footer {
+    
+    font-size: 1rem;
+    color: wheat;
+      
+}
+    
+    main div.info {
+    color: white;
+    padding-top: 15vh;
+    font-size: 1,5rem;
+}
+
+main div.aside-info {
+    
+    padding-top: 3vh;
+    width: 50vh;
+    
+}
+    
+    .key {
+        
+    width: 40vh;
+    height: 59vh; 
+        
+}
+    
+    .map{
+        
+        height: 50vh
+        
+    }
+    
+    .card-pad{
+        
+        margin: 1vh;
+        
+    }
+    
+    h2{
+        
+        font-size: 1.5rem;
+        
+    }
+
+.navbar .nav-item .nav-link {
+  color: white;
+  font-size: 2rem;
+  padding: 2vh;  
+}
+    
+    .navbar {
+        
+        border: black 1px solid
+        
+    }
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
