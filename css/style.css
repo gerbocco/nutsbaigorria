@@ -70,7 +70,7 @@ div.fondo-frente {
     right: 0;
     z-index: 1;
     width: 7vh;
-    height: 20%;
+    height: 22%;
     border: black 2px solid;
     transition: width 2s;
  }
