@@ -134,6 +134,7 @@ div.fondo-frente {
 .descripcion {
   color: white; }
 
+
 .card-mixs {
   margin-top: 1vh;
   margin-bottom: 1vh;
@@ -142,6 +143,7 @@ div.fondo-frente {
 .productos-prod{
     
     padding-top: 15vh;
+   ;
     
 }
 
@@ -240,9 +242,11 @@ main div.aside-info {
 
 .ft {
     
-    background-color: #ffa500
+    background-color: #ffa500;
     
 }
+
+
 
 
 .footer-frase {
@@ -352,14 +356,14 @@ main div.aside-info {
           font-weight: bold;
           text-transform: uppercase;
           letter-spacing: 3px;
-          color: orange; 
+          color: #242424; 
           font-size: 2rem;
 }
 
     .contactos-footer {
     
     font-size: 1rem;
-    color: wheat;
+    color: #242424;
       
 }
     
